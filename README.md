@@ -14,7 +14,7 @@ Para contribuir com este projeto, siga estas etapas:
 
 ## Como usar a API
 
-A API deste projeto está disponível em <link>https://api.pokedex.com</link>. Você pode usar a API para fazer as seguintes coisas:
+A API deste projeto está disponível em <link>[PokéAPI](https://pokeapi.co)</link>. Você pode usar a API para fazer as seguintes coisas:
 
 * Consultar dados da <link>pokedex</link>.
 * Criar novos <link>pokémons</link> na <link>pokedex</link>.
