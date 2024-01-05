@@ -4,6 +4,10 @@ body {
     flex-direction: column;
     font-family: "Roboto";
 }
+li{
+    list-style-type: none;
+
+}
 .logo{
     
     width: 50vw;
@@ -54,4 +58,12 @@ header{
     color: aliceblue;
     cursor: pointer;
     
+}
+.pokemons{
+    display: flex;
+    flex-direction: row;
+}
+.pokemon{
+    background-color: antiquewhite;
+    margin: 10%;
 }
