@@ -2,9 +2,10 @@ body {
     display: flex;
     background-color: crimson;
     flex-direction: column;
+    font-family: "Roboto";
 }
 .logo{
-    margin-bottom: 2%;
+    
     width: 50vw;
 }
 header{
@@ -13,11 +14,44 @@ header{
     align-items: center;
     flex-direction: column;
 }
+.subtitulo{
+    color: white;
+    font-family: "Roboto";
+}
 
 .search{
     display: flex;
     width: 60%;
     justify-content: center;
     align-items: center;
-   
+}
+#search{
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30vw;
+    height: 30px;
+    border: 3px solid #2d5c9f;
+    border-radius: 10px;
+    font-family: "Roboto";
+
+}
+
+#submit{
+    
+    border: 3px solid #2d5c9f;
+    height: 40px;
+    border-radius: 10px;
+    color: #2d5c9f;
+    font-weight: bold;
+    background-color: #ffcb05;
+  
+}
+#submit:hover{
+    border-radius: 10px;
+    border-color: #ffcb05;
+    background-color: #2d5c9f;
+    color: aliceblue;
+    cursor: pointer;
+    
 }
