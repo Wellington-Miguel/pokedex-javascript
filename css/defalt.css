@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    background-color: crimson;
+    flex-direction: column;
+}
+.logo{
+    margin-bottom: 2%;
+    width: 50vw;
+}
+header{
+    margin: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+   
+}
