@@ -18,6 +18,9 @@ header{
     align-items: center;
     flex-direction: column;
 }
+span{
+    margin: 5px;
+}
 .subtitulo{
     color: white;
     font-family: "Roboto";
@@ -62,8 +65,20 @@ header{
 .pokemons{
     display: flex;
     flex-direction: row;
+    padding: 0;
 }
 .pokemon{
     background-color: antiquewhite;
-    margin: 10%;
+    margin: 5%;
+    border: 3px solid #2d5c9f;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+}
+#pokemon-img{
+    width: 150px;
+    height: 200px;
+}
+#number{
+    background-color: #ffcb05;
 }
