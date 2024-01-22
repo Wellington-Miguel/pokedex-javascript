@@ -1,11 +1,17 @@
+function capitalizeFirstLetter(pokemonName) {
+    return pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1);
+}
+
 
 function addPokemonLi (pokemon){
     return `<li class="pokemon">
-    <span id="number">#0001</span>
-    <span>${pokemon.name}</span>
+    <span id="number">#${pokemon.number}</span> <br>
+    <span>${capitalizeFirstLetter(pokemon.name)}</span>
     <div>
-        <p>Tipo:</p>
-        <img id="pokemon-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="pokemon">
+        ${pokemon.types.map((type)=> `<p>Tipo: ${capitalizeFirstLetter(type)}</p>`).join('')}
+        <img id="pokemon-img" 
+         src="${pokemon.photo}"
+         alt="${pokemon.name}">
     </div>
 </li>`
 }
